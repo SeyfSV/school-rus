@@ -1,0 +1,1494 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "27341bba-607e-11e9-8f22-7ce9d3f08757",
+    "deck_config_uuid": "c7847477-1447-11e9-996c-7ce9d3f08757",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "addon_audio_download_language": "en",
+            "autoplay": false,
+            "crowdanki_uuid": "c7847477-1447-11e9-996c-7ce9d3f08757",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 16,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Определениия",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 5,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 50
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "Серия \"Школа России\"\nКанакина В.П\nГорецкий В.Г.\nРусский язык\n3 класс\nЧасть 1\nhttp://maltseva1253.ru/metodicheskaya-kopilka/umk-shkola-rossii/rus-kanakina-goreckiy/",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "mid": "1545550940443",
+    "name": "Русский язык::Учебник::3 класс::1.1 часть",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "css": ".card {\n font-family: arial;\n font-size: 50px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n \n}\n.nightMode .cloze {\n color: lightblue;\n}\n.page {\n font-size: 50%;\n coro: grey;\n}\n\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Текст",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Ответ",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Страница",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Пропуски-1",
+            "sortf": 2,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Текст}}\n<br>\nПример: {{Ответ}}\n<br>\n<span class=\"page\">стр.{{Страница}}</span>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Пропуски",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Текст}}\n<br/>\n<span class=\"page\">стр.{{Страница}}</span>"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "css": ".card {\n font-family: arial;\n font-size: 60px;\n text-align: center;\n color: black;\n background-color: white;\n}\n.info {\n font-size: 70%;\n coro: grey;\n}\n.page {\n font-size: 50%;\n coro: grey;\n}\n\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Вопрос",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Ответ",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Страница",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Термины",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 2,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Ответ}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Карточка 1",
+                    "ord": 0,
+                    "qfmt": "{{Вопрос}}\n<br>\n<span class=\"page\">стр.{{Страница}}</span>"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Текст - это {{c1::высказывание, в котором два или несколько предложений}}",
+                "",
+                "12"
+            ],
+            "flags": 0,
+            "guid": "fROSF>)aF<",
+            "note_model_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Предложения в {{c1::тексте}} {{c3::объединены}} {{c2::общей темой}}",
+                "",
+                "12"
+            ],
+            "flags": 0,
+            "guid": "H#ldsZ~w4l",
+            "note_model_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Предложения {{c1::в тексте}} {{c3::связаны}} {{c2::по смыслу}}",
+                "",
+                "12"
+            ],
+            "flags": 0,
+            "guid": "puhbw|IB,3",
+            "note_model_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Текст имеет свою {{c1::тему}} и {{c2::главную мысль}}",
+                "",
+                "12"
+            ],
+            "flags": 0,
+            "guid": "jh}T]8?]Nz",
+            "note_model_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Текст можно {{c1::озаглавить}}",
+                "",
+                "12"
+            ],
+            "flags": 0,
+            "guid": "QWC5TWp^,2",
+            "note_model_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Типы текстов}}:<div>{{c2::повествование}}<div>{{c3::описание}}</div><div>{{c4::рассуждение}}</div></div>",
+                "",
+                "13"
+            ],
+            "flags": 0,
+            "guid": "q=Yp:ngF_u",
+            "note_model_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Что происходит в тексте повествовании?",
+                "Рассказывается, сообщается о чем-либо",
+                "13"
+            ],
+            "flags": 0,
+            "guid": "O1ff>0bh!O",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Что происходит в тексте описание?",
+                "Описывается внешний вид человека, животного, картина природы, событие",
+                "13"
+            ],
+            "flags": 0,
+            "guid": "vEL^MD%LM,",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Что происходит в тексте рассуждение?",
+                "Объясняется, доказывается что-либо; говорится о причинах явлений, событий",
+                "13"
+            ],
+            "flags": 0,
+            "guid": "+Slet=i-A",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Предложение - это {{c1::слово или несколько слов}}, которые {{c2::выражают законченную мысль}}",
+                "",
+                "0"
+            ],
+            "flags": 0,
+            "guid": "M3C5fC~t`O",
+            "note_model_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Что происходит в повествовательном предложении?",
+                "Сообщается о чем-либо &nbsp;(повествуется)",
+                "17"
+            ],
+            "flags": 0,
+            "guid": "dlrb?yABxQ",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Предложения, которые содержат вопрос - это {{c1::вопросительное предложение}}",
+                "",
+                "17"
+            ],
+            "flags": 0,
+            "guid": "wqS7q`3OUN",
+            "note_model_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Предложение, которое побуждает к действию -&nbsp;{{c1::побудительное предложение}}",
+                "",
+                "18"
+            ],
+            "flags": 0,
+            "guid": "uijR.9X9/[",
+            "note_model_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Предложение, в котором выражены какие либо сильные чувства",
+                "восклицательное предложение",
+                "21"
+            ],
+            "flags": 0,
+            "guid": "Ri?VXKSXv1",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Восклицательные предложения произносятся с",
+                "восклицательной интонацией",
+                "21"
+            ],
+            "flags": 0,
+            "guid": "phohSXoKHz",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "В конце восклицательных предложений ставится",
+                "восклицательный знак",
+                "21"
+            ],
+            "flags": 0,
+            "guid": "t}?oSBQRi1",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Предложения, которые произносятся без восклицательной интонации - это ...",
+                "невосклицательные предложения",
+                "21"
+            ],
+            "flags": 0,
+            "guid": "Kx*s@oJ`Gt",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Обращение - это ...",
+                "слово или сочетание слов, называющее того (лицо или предмет), к кому обращена речь.",
+                "25"
+            ],
+            "flags": 0,
+            "guid": "jwxZ^VGVqH",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Чащего всего обращение отделяется от других слов ...",
+                "запятой",
+                "25"
+            ],
+            "flags": 0,
+            "guid": "KgKFl+ZYfj",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Члены предложения (2):",
+                "главные<div>второстепенные</div>",
+                "25"
+            ],
+            "flags": 0,
+            "guid": "yh(T)5RYVh",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Главные члены предложения (2):",
+                "подлежащее<div>сказуемое</div>",
+                "27"
+            ],
+            "flags": 0,
+            "guid": "EVFtxonyB5",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Подлежащее обозначает ...",
+                "о ком или о чём говорится в предложении",
+                "27"
+            ],
+            "flags": 0,
+            "guid": "J9mtU>5}1u",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Сказуемое обозначает ...",
+                "что говорится о подлежащем",
+                "27"
+            ],
+            "flags": 0,
+            "guid": "cL0~/mnfov",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Подлежащее отвечает на вопросы:",
+                "кто?<div>что?</div>",
+                "27"
+            ],
+            "flags": 0,
+            "guid": "Ia!5J(#KpG",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Сказуемое отвечает на вопросы:",
+                "что делает?<div>что делал?</div><div>что сделал?</div><div>что будет делать?</div><div>и др.</div>",
+                "27"
+            ],
+            "flags": 0,
+            "guid": "f@a`z{Bpj%",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Второстепенные члены предложения (что делают?)... члены предложения",
+                "Второстепенные члены предложения <b>поясняют главные и другие</b> члены предложения",
+                "27"
+            ],
+            "flags": 0,
+            "guid": "LU2W3,H{G)",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Второстепенные члены предложения отвечают на вопросы:",
+                "кого?<div>чего?</div><div>кому?</div><div>чему?</div><div>и др.</div>",
+                "27"
+            ],
+            "flags": 0,
+            "guid": "z_Q1v]5$JK",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Подлежащее и сказуемое составляют ... предложения",
+                "основу",
+                "27"
+            ],
+            "flags": 0,
+            "guid": "AqYP}0}iWA",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Простое предложение - это такое предложение в котором ...",
+                "есть только одна грамматическая основа",
+                "31"
+            ],
+            "flags": 0,
+            "guid": "A^S:q<9hvU",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Основа простого предложения может состоять из:",
+                "подлежащего и сказуемого<div>подлежащего</div><div>сказуемого</div>",
+                "31"
+            ],
+            "flags": 0,
+            "guid": "mCv$7G$><w",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Приведи пример предложения из двух главных членов",
+                "Кузьма идет домой",
+                "31"
+            ],
+            "flags": 0,
+            "guid": "A8e*eq$A~E",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Приведи пример предложения из одного главного члена, подлежащего",
+                "Пухлый Марко",
+                "31"
+            ],
+            "flags": 0,
+            "guid": "sFB4OJpsH&",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Приведи пример предложения из одного главного члена, сказуемого",
+                "Светает",
+                "31"
+            ],
+            "flags": 0,
+            "guid": "wV#aK+KM#C",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Сложное предложение - это такое предложение, которое состоит из ...",
+                "нескольких простых предложений.",
+                "32"
+            ],
+            "flags": 0,
+            "guid": "NnF#2+}{sW",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "В сложном предложении может быть ... грамматических основ",
+                "две или более",
+                "32"
+            ],
+            "flags": 0,
+            "guid": "o:c2W3`hGJ",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Простые предложения, входящие в состав сложного, разделяются ...",
+                "запятой",
+                "32"
+            ],
+            "flags": 0,
+            "guid": "z~?Wm5Z|,{",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Словосочетание состоит из ... слов",
+                "Словосочетание состоит из <b>главного и зависимого</b>&nbsp;слов",
+                "35"
+            ],
+            "flags": 0,
+            "guid": "E%1qq:M@,#",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Связь слов в словосочетании устанавливается при помощи ...",
+                "вопросов",
+                "35"
+            ],
+            "flags": 0,
+            "guid": "B:ndu/uwTI",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Вопрос ставится от ... к ...&nbsp;",
+                "Вопрос ставится от <b>главного</b> к <b>зависимому</b>",
+                "35"
+            ],
+            "flags": 0,
+            "guid": "C~UE_6%z5p",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Над главным словом в словосочетании ставится ...",
+                "крестик",
+                "35"
+            ],
+            "flags": 0,
+            "guid": "t`a_n]3G&Z",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Связь главного слова с зависимым словом обозначается ...",
+                "стрелкой",
+                "35"
+            ],
+            "flags": 0,
+            "guid": "Gn_|Z08~#@",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Лексическое значение - это то {{c1::что обозначает слово}}",
+                "",
+                "0"
+            ],
+            "flags": 0,
+            "guid": "vVsTX?$pz@",
+            "note_model_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Синонимы - это слова, которые {{c1::звучат и пишутся по-разному, а по смыслу одинаковы или очень близки}}",
+                "",
+                "0"
+            ],
+            "flags": 0,
+            "guid": "miLw$IAQl7",
+            "note_model_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Антонимы - это {{c1::слова, противоположные по смыслу}}",
+                "",
+                "0"
+            ],
+            "flags": 0,
+            "guid": "nPaCh,m5$}",
+            "note_model_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Омонимы - это слова, которые&nbsp;...",
+                "произносятся и пишутся одинаково, но имеют совершенно разное лексическое значение",
+                "45"
+            ],
+            "flags": 0,
+            "guid": "OACp}DAu5,",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Фразеологизм - это ...",
+                "устойчивое сочетание слов",
+                "49"
+            ],
+            "flags": 0,
+            "guid": "uC]M.k,9j;",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Части речи (4):",
+                "имя существительное<div>имя прилагательное</div><div>глагол<br><div>местоимение</div></div>",
+                "53"
+            ],
+            "flags": 0,
+            "guid": "AuM+v~F25$",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Имя существительное обозначает ...",
+                "предмет",
+                "53"
+            ],
+            "flags": 0,
+            "guid": "i&<5tT|{k.",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Имя прилагательное обозначает ...",
+                "признак предмета",
+                "53"
+            ],
+            "flags": 0,
+            "guid": "HP?/-_ZA,E",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Глагол обозначает ...",
+                "действие предмета",
+                "53"
+            ],
+            "flags": 0,
+            "guid": "bmE`?p-hWe",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Местоимение ... на предмет, но ...",
+                "Местоимение <b>указывает</b> на предмет, но <b>не называет его</b>",
+                "53"
+            ],
+            "flags": 0,
+            "guid": "NKF]UtYsmc",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Имя существительное отвечает на вопрос:",
+                "кто? что? &nbsp;и др.",
+                "53"
+            ],
+            "flags": 0,
+            "guid": "bcV]ErG;?",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Имя прилагательное отвечает на вопрос:",
+                "какой? какая? какое? и др.",
+                "53"
+            ],
+            "flags": 0,
+            "guid": "HFp97:<FhO",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Глагол отвечает на вопрос:",
+                "что делает?, что сделает?, что сделают? и др.",
+                "53"
+            ],
+            "flags": 0,
+            "guid": "P,Zv;:F6j%",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Местоимение отвечает на вопрос:",
+                "кто?, что? и др.",
+                "53"
+            ],
+            "flags": 0,
+            "guid": "FwZq;YQ,sL",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Предлоги не могут ...",
+                "употребляться самостоятельно",
+                "54"
+            ],
+            "flags": 0,
+            "guid": "x!qNII>ql<",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Предлоги не являются ...",
+                "членами предложения",
+                "54"
+            ],
+            "flags": 0,
+            "guid": "c*M=VUQ>@v",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Имя числительное - это ...",
+                "часть речи, обозначающая количество предметов или их порядок при счёте.",
+                "60"
+            ],
+            "flags": 0,
+            "guid": "Q)Yy#YX_RH",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Имя числительное отвечает на вопрос:",
+                "сколько?, который?",
+                "60"
+            ],
+            "flags": 0,
+            "guid": "O&Gx_:GI&9",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Однокоренные слова - это слова, которые ...",
+                "имеют одинаковый корень с одним и тем же значением",
+                "61"
+            ],
+            "flags": 0,
+            "guid": "Fu1[=#3toX",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Разделительный мягкий знак пишется в ...",
+                "корне слова",
+                "68"
+            ],
+            "flags": 0,
+            "guid": "isti2xI:O]",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Разделительный мягкий знак пишется после ...",
+                "букв, обозначающих согласные звуки",
+                "68"
+            ],
+            "flags": 0,
+            "guid": "Ri*k?FN]Z!",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Разделительный мягкий знак пишется перед ...",
+                "буквами е, ё, ю, я, и",
+                "68"
+            ],
+            "flags": 0,
+            "guid": ",XOj[I_7W",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Корень слова - это &nbsp;...",
+                "главная значимая часть слова",
+                "74"
+            ],
+            "flags": 0,
+            "guid": "wkI;NByGrI",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "В корне слова заключено ... лексическое ... всех однокоренных слов",
+                "В корне слова заключено <b>общее</b> лексическое <b>значение</b> всех однокоренных слов",
+                "74"
+            ],
+            "flags": 0,
+            "guid": "e%0UY8HN2^",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Что бы найти корень, надо ...",
+                "&nbsp;подобрать однокоренные слова и выделить в них общую часть",
+                "75"
+            ],
+            "flags": 0,
+            "guid": "o:18?9+b&!",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Корень в однокоренных словах ... пишется ...",
+                "Корень в однокоренных словах <b>обычно</b> пишется <b>одинаково</b>",
+                "75"
+            ],
+            "flags": 0,
+            "guid": "f$f,{wQ>=f",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Окончание - это ...",
+                "изменяемая значимая часть слова",
+                "80"
+            ],
+            "flags": 0,
+            "guid": "s}mzu-y2i0",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Окончание образует ...",
+                "форму слова",
+                "80"
+            ],
+            "flags": 0,
+            "guid": "KueL27|Ob(",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Окончание служит для ...",
+                "связи слов в словосочетании и предложении",
+                "80"
+            ],
+            "flags": 0,
+            "guid": "B(swem)8UZ",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Что бы найти окончание слова, надо ...",
+                "изменить форму слова",
+                "81"
+            ],
+            "flags": 0,
+            "guid": "nt`ODLL=b-",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Приставка - это ...",
+                "значимая часть слова",
+                "84"
+            ],
+            "flags": 0,
+            "guid": "ju~TK3*h.@",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Приставка стоит ...",
+                "перед корнем",
+                "84"
+            ],
+            "flags": 0,
+            "guid": "pW^(9Zh7lf",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Приставка служит для ...",
+                "образования слов",
+                "84"
+            ],
+            "flags": 0,
+            "guid": "vf}O_0,#X`",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Чтобы найти приставку в слове, надо ...",
+                "подобрать однокоренное слово без приставки или с другой приставкой",
+                "86"
+            ],
+            "flags": 0,
+            "guid": "BX{&e+[V[P",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Суффикс &nbsp;- это ...",
+                "значимая часть слова",
+                "89"
+            ],
+            "flags": 0,
+            "guid": "yA]5Mg@bfh",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Суффикс стоит ...",
+                "после корня",
+                "89"
+            ],
+            "flags": 0,
+            "guid": "tP&@!$tctT",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Суффикс служит для ...",
+                "образования слов",
+                "89"
+            ],
+            "flags": 0,
+            "guid": "G|9@mB-GVV",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Что бы найти в слове суффикс, надо ...",
+                "подобрать однокоренные слова без суффикса или с другими суффиксами",
+                "90"
+            ],
+            "flags": 0,
+            "guid": "40?[]JcEs",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Основа слова - это ...",
+                "часть слова без окончания",
+                "95"
+            ],
+            "flags": 0,
+            "guid": "Lt&h/bd)/.",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "В основе слова заключено его ...",
+                "лексическое значение",
+                "95"
+            ],
+            "flags": 0,
+            "guid": "mjdA:9lu))",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Что бы найти основу слова, нужно ...",
+                "отделить окончание",
+                "95"
+            ],
+            "flags": 0,
+            "guid": "N;;E6&!ARu",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Что бы найти проверочное слово для обозначения буквой безударного гласного звука в корне, надо (1):",
+                "изменить слово так, что бы безударный гласный звук стал ударным",
+                "104"
+            ],
+            "flags": 0,
+            "guid": "C4v&pNi_//",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Что бы найти проверочное слово для обозначения буквой безударного гласного звука в корне, надо (2):",
+                "подобрать однокоренное слово так, что бы безударный гласный звук стал ударным",
+                "104"
+            ],
+            "flags": 0,
+            "guid": "vee{>RvKs/",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Что бы найти проверочное слово для обозначения буквой парного по глухости-звонкости согласного звука на конце слова или перед согласным в корне, надо (1) ... так, что бы парный согласный звук стоял&nbsp;...&nbsp;звуком или буквами ...",
+                "<b>изменить слово</b>&nbsp;так, что бы парный согласный звук стоял&nbsp;<b>перед гласным</b>&nbsp;звуком или буквами <b>[Л], [М], [Н], [Р], [В]</b>",
+                "112"
+            ],
+            "flags": 0,
+            "guid": "CoEt?xY)wu",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Что бы найти проверочное слово для обозначения буквой парного по глухости-звонкости согласного звука на конце слова или перед согласным в корне, надо (2) ... так, что бы парный согласный звук стоял ... звуком или буквами ...",
+                "подобрать <b>однокоренное слово</b> так, что бы парный согласный звук стоял <b>перед гласным</b> звуком или буквами [Л], [М], [Н], [Р], [В]",
+                "112"
+            ],
+            "flags": 0,
+            "guid": "ckwQ-cP5T2",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Когда в слове встречается сразу ..., ... из них может ...",
+                "Когда в слове встречается сразу <b>три или четыре согласных</b>, <b>один</b> из них может <b>не произносится</b>",
+                "117"
+            ],
+            "flags": 0,
+            "guid": "vFP._lp(NJ",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Если встречаются сразу несколько согласных, то могут не произносится звуки:",
+                "л, т, д, ф",
+                "117"
+            ],
+            "flags": 0,
+            "guid": "FgJ1}3a{e|",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Буква, обозначающая непроизносимый согласный - это ...",
+                "орфограмма",
+                "118"
+            ],
+            "flags": 0,
+            "guid": "Bquq=+,6{l",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Что бы правильно обозначить буквой непроизносимый согласный звук в корне слова, надо ...",
+                "подобрать такое однокоренное слово, в котором этот согласный произносится отчётливо",
+                "118"
+            ],
+            "flags": 0,
+            "guid": "ydKW/44UYT",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Удвоенная согласная в слове - это",
+                "орфограмма",
+                "121"
+            ],
+            "flags": 0,
+            "guid": "ACXm&^steN",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Написание слов с удвоенными согласными в корне надо ...",
+                "проверять по словарю",
+                "121"
+            ],
+            "flags": 0,
+            "guid": "hjJTj?-&r[",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "В суффиксе <b><i>-ик</i></b> при изменении формы слова гласная буква ...",
+                "сохраняется",
+                "125"
+            ],
+            "flags": 0,
+            "guid": "o-#;.*~i7_",
+            "note_model_uuid": "27341bd0-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "В суффиксе <i><b>-ек</b></i> при изменении формы слова гласная буква {{c1::исчезает}}",
+                "",
+                "125"
+            ],
+            "flags": 0,
+            "guid": "uim8Ve@>qM",
+            "note_model_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "После {{c1::шипящих}} {{c2::под ударением}} {{c4::в суффиксе}} {{c3::<b>-о</b>}}<b>к</b> пишется буква {{c3::<b>о</b>}}&nbsp;",
+                "",
+                "127"
+            ],
+            "flags": 0,
+            "guid": "vga>`^+=S+",
+            "note_model_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c2::Предлог}}, это {{c3::часть речи}}, которая пишется {{c1::раздельно}}&nbsp;с другими словами",
+                "",
+                "132"
+            ],
+            "flags": 0,
+            "guid": "N%N{$/F*7c",
+            "note_model_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Между {{c3::предлогом}} и {{c4::следующим словом}} можно вставить {{c1::слово}} или {{c2::вопрос}}",
+                "",
+                "132"
+            ],
+            "flags": 0,
+            "guid": "o)g0dVuF!e",
+            "note_model_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Предлоги никогда не употребляются с {{c1::глаголами}}",
+                "",
+                "133"
+            ],
+            "flags": 0,
+            "guid": "ORPuPl.5II",
+            "note_model_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Разделительный твердый знак пишется только после {{c1::приставок}}",
+                "",
+                "134"
+            ],
+            "flags": 0,
+            "guid": "nF-3I&j&9%",
+            "note_model_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Разделительный твердый знак в слове - это {{c1::орфограмма}}",
+                "",
+                "136"
+            ],
+            "flags": 0,
+            "guid": "C36OJs%G@v",
+            "note_model_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "При переносе слова с одной строки на другую букву \"твердый знак\" {{c1::нельзя отделять от стоящей перед ним буквы}}",
+                "",
+                "138"
+            ],
+            "flags": 0,
+            "guid": "sJr^#W)9/J",
+            "note_model_uuid": "27341bbe-607e-11e9-8f22-7ce9d3f08757",
+            "tags": []
+        }
+    ]
+}
