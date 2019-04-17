@@ -76,7 +76,7 @@
                 {
                     "font": "Arial",
                     "media": [],
-                    "name": "Ответ",
+                    "name": "Пример",
                     "ord": 1,
                     "rtl": false,
                     "size": 20,
@@ -100,13 +100,13 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{cloze:Текст}}\n<br>\nПример: {{Ответ}}\n<br>\n<span class=\"page\">стр.{{Страница}}</span>",
+                    "afmt": "{{cloze:Текст}}\n<br>\n{{#Пример}} Пример: {{Пример}}{{/Пример}}\n<br>\n{{#Страница}}<span class=\"page\">стр. {{Страница}}</span>{{/Страница}}",
                     "bafmt": "",
                     "bqfmt": "",
                     "did": null,
                     "name": "Пропуски",
                     "ord": 0,
-                    "qfmt": "{{cloze:Текст}}\n<br/>\n<span class=\"page\">стр.{{Страница}}</span>"
+                    "qfmt": "{{cloze:Текст}}\n<br>\n{{#Пример}} Пример: ...{{/Пример}}\n<br/>\n{{#Страница}}<span class=\"page\">стр. {{Страница}}</span>{{/Страница}}"
                 }
             ],
             "type": 1,
